@@ -9,25 +9,10 @@ const firebaseConfig = {
   appId: "1:303355690951:web:97eb35208734ced587a3e2",
   measurementId: "G-9D8S1QQCY5"
 };
-
-// perisitent references to app (extension) and database
 const app = firebase.initializeApp(firebaseConfig);
 const db = app.database().ref();
 
-// sample test prior to adding runtime message handling queries 
-// to verify input/output integrity
-/*
-db.child("Christoph Csallner").get().then((snapshot) => {
-  if (snapshot.exists()) {
-    console.log(snapshot.val());
-  } else {
-    console.log("No data available");
-  }
-});
-*/
 
-// handles queries from frontend.js and passes the results back
-// in a chrome runtime message format
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?

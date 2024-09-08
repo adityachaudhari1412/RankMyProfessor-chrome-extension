@@ -3,7 +3,7 @@
 var notify = document.createElement('div');
 notify.setAttribute('id', 'Active');
 
-var node = document.createTextNode('UTA Course Rank extension is in use');
+var node = document.createTextNode('Rank my professor extension is in use');
 notify.appendChild(node);
 
 var greenDot = document.createElement('div');

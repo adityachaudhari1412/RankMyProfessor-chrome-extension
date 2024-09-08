@@ -1,5 +1,5 @@
 ![alt text](https://github.com/ClayGifford1/UTA_course_rank/blob/0f3e73da8a28890d23c11b72f074a81dedcd2ff2/Google%20Extension%20Front%20End/Picture1.png)
-# Say hello to our UTA Course Rank Google Chrome Extension!
+# Say hello to our UTA RankMYProfessor Google Chrome Extension!
 # UTA_course_rank
    A Chrome extension that allows UTA students to access information from past years student surveys while picking classes in MyMav. It will show 6 seperate scores: Availability, Clarity, Communication, Encouragement, Preparedness, and Overall Score.
 # Description
